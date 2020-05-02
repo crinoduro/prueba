@@ -1,32 +1,40 @@
 :root {
 
     
-    --color1: #204051;
-    --color2: #3b6978;
+    --color1: #101010;
+    --color2: #d7d7d7;
     --color3: #84a9ac;
-    --color4: #cae8d5;
+    --color4: #545454;
 }
 
 body  {
     background-color: var(--color1);
-    font-family: 'Rubik', sans-serif;
-
+    font-family: 'Bungee', cursive;
+    font-family: 'Staatliches', cursive;
+    margin: 0;
+    padding: 0;
+    color: #717171;
 }
     
 
 header {
-    background-image: url('../img/edu_astronauts.jpg');
+    background-image: url('../img/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 30rem;
     color: #ffffff;
+    font-style: 'Staatliches', cursive;
   
 }
 
-.footer {
+.perfil-bio {
+    border-radius: 100%;
+    width: 100%;
+}
+
+footer {
     background-color: var(--color4);
-    display: inline-block;
 }
 
 .barra-nav {
@@ -34,18 +42,21 @@ header {
     color: #ffffff;
 }
 
-.bio{
-    background-color: var(--color2);
-}
 
-.trabajos {
-    background-color: var(--color2);
-}
-
-.experiencia {
-    background-color: var(--color2);
-}
 
 .card-full {
     background-color: var(--color2);
+}
+
+.card-hor-img {
+    background-color: var(--color1);
+    border: none;
+}
+
+.card {
+    border: none;
+}
+
+.iconos a i{
+    display: inline-block;
 }
