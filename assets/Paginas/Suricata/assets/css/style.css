@@ -1,0 +1,26 @@
+:root {
+  --rosa: #E83E8C
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-bgcolor {
+  background-color: var( --rosa)
+}
+
+.container .navbar-brand img {
+  width: 150px;
+}
+.pagos-bg {
+  background-color: #17A2B8;
+}
+
+.footer-bgcolor {
+  background-color: var(--rosa)
+}
+
+header .container h1 {
+  font-size: 60px;
+}

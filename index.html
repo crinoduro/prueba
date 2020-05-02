@@ -14,38 +14,38 @@
 <script src="https://kit.fontawesome.com/910fc662a8.js" crossorigin="anonymous"></script>
 
 <!--GOOGLE FONTS-->
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Staatliches&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;500;800&family=Staatliches&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
 <!--NavBar-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <a class="navbar-brand" href="#header">Portfolio CD</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#biografia">Biografia <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Trabajos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#3d">Animación 3D</a>
+              <a class="dropdown-item" href="#fullstack">Desarrollo Fullstack</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formulario">Contacto</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#rrss">Redes</a>
+          </li>
+        
       </ul>
     </div>
   </nav>
@@ -56,7 +56,7 @@
     <div class="container text-right mt-5">
         <div class="pt-5 mt-5">
         <h3 class="mt-5 pt-3">Portafolio</h3>
-        <h1>Cristian Durán</h1>
+        <h1 class="">Cristian Durán</h1>
         <h2 class="text-right">animador 3D</h2>
         </div>
     </div>
@@ -95,8 +95,11 @@
 <!--FIN BIO-->
 
 <!--CAROUSEL-->
-    <section class="container pt-5">
+    <section class="container-fluid carrusel">
         <div class="container my-5 py-5 ">
+            <div>
+                <h1 class="text-center">Trabajos de animación.</h1>
+            </div>
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner container">
               <div class="carousel-item active">
@@ -122,12 +125,6 @@
     </section>
 
 <!--FIN CAROUSEL-->
-<!--*********************** COLOCAR CAROUSEL CON ICONOS DE SOFTWARE USADOS ***********************-->
-
-
-
-
-
 
 <!--TRABAJOS-->
     <section class="container-fluid my-5 py-5 trabajos " id="3d">
@@ -135,14 +132,18 @@
     <!--corto1-->
         <div class="row my-5">
             <div class="container col-md-4">
-                <img src="assets/img/carousel-1.jpg" alt="tocar-una-estrella" class="container">
+                <a href="https://vimeo.com/116715879" target="_blank"><img src="assets/img/carousel-1.jpg" alt="tocar-una-estrella" class="container" data-toggle="tooltip" data-placement="top" title="Presiona para ver el cortometraje"></a>
+                
             </div>
-            <div class="container col-md-8">
-                <h1 class="text-center text-xs-center text-md-left text-lg-left text-xg-left ml-4">sinopsis</h1>
+            <div class="container col-md-8" >
+                <h1 class="text-center text-xs-center text-md-left text-lg-left text-xg-left ml-4">Tocar una estrella</h1>
                 <div class="container">
-                    <div class="container ">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero iste, alias modi culpa eos maiores aliquam autem dicta obcaecati, recusandae sed officiis corrupti molestiae rerum ad, consequatur sequi! Quasi.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="container">
+                        <h4>Cortometraje realizado como tesis de la carrera de animación 3D en instituto profesional Arcos.</h4>
+                            <p>Dirección: Cristian Durán</p> 
+                            <p>Año: 2015</p>
+                            
+                            
                         </p>
                     </div>
                 </div>
@@ -151,35 +152,69 @@
     <!--fin corto1-->
 
     <!--corto2-->
+    <!--FORMATO MD-->
+<div class="d-none d-xs-none d-md-block d-lg-block d-xg-block">
     <div class="row my-5 ">
         <div class="container col-md-8">
-            <h1 class="ml-4">sinopsis</h1>
+            <h1 class="ml-4 text-center text-xs-center text-md-left text-lg-left text-xg-left">Video prevención de riesgos.</h1>
             <div class="container ">
                 <div class="container pr-5 mr-5">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero iste, alias modi culpa eos maiores aliquam autem dicta obcaecati, recusandae sed officiis corrupti molestiae rerum ad, consequatur sequi! Quasi.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    </p>
+                    <h4>Cortometraje instructivo de los riesgos en las obras de la construcción del hospital del Salvador.</h4>
+                            <p>Cliente: Cosing. Hospital del Salvador.</p>
+                            <p>Dirección: Cristian Durán</p> 
                 </div>
             </div>
         </div>
         <div class="container col-md-4">
-            <img src="assets/img/carousel-2.jpg" alt="hospital_el_salvador" class="container">
+            <a href="https://vimeo.com/210802847" target="_blank">
+                <img src="assets/img/carousel-2.jpg" alt="hospital_el_salvador" 
+                    class="container" data-toggle="tooltip" data-placement="top" title="Presiona para ver el cortometraje"></a>
+            
         </div>
     </div>   
+</div>
+<!--Fin FORMATO MD-->
+<!--FORMATO XS-->
+<div class="d-block d-xs-block d-md-none d-lg-none d-xg-none">
+    <div class="row my-5 ">
+        <div class="container col-md-4">
+            <a href="https://vimeo.com/210802847" target="_blank" >
+                <img src="assets/img/carousel-2.jpg" alt="hospital_el_salvador" 
+                    class="container" data-toggle="tooltip" data-placement="top" title="Presiona para ver el cortometraje"></a>
+            
+        </div>
+        <div class="container col-md-8">
+            <h1 class="ml-4 text-center text-xs-center text-md-left text-lg-left text-xg-left">Video prevención de riesgos.</h1>
+            <div class="container ">
+                <div class="container pr-5 mr-5">
+                    <h4>Cortometraje instructivo de los riesgos en las obras de la construcción del hospital del Salvador.</h4>
+                            <p>Cliente: Cosing. Hospital del Salvador.</p>
+                            <p>Dirección: Cristian Durán</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>   
+</div>
+<!--FIN FORMATO XS-->
     <!--fin corto2-->
 
     <!--corto3-->
     <div class="row my-5 ml-2">
         <div class="container col-md-4">
-            <img src="assets/img/carousel-3.png" alt="corto3" class="container">
+            <a href="https://vimeo.com/370052027" target="_blank">
+                <img src="assets/img/carousel-3.png" alt="corto3" 
+                    class="container" data-toggle="tooltip" data-placement="top" title="Presiona para ver el cortometraje"></a>
+            
         </div>
         <div class="container col-md-8">
-            <h1 class="text-left ml-4">sinopsis</h1>
+            <h1 class="text-left ml-4 text-center text-xs-center text-md-left text-lg-left text-xg-left">Kdoce Steam Mobile.</h1>
             <div class="container">
                 <div class="container ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero iste, alias modi culpa eos maiores aliquam autem dicta obcaecati, recusandae sed officiis corrupti molestiae rerum ad, consequatur sequi! Quasi.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+                    <h4>Serie de videos instructivos para la actividad Steam Mobile de Kdoce soluciones educativas.</h4>
+                            <p>Cliente: Kdoce soluciones educativas.</p>
+                            <p>Dirección: Cristian Durán.</p>
+                            <a href="https://kdoce.cl/producto/steam-mobile/" target="_blank">Enlace al proyecto</a>
                 </div>
             </div>
         </div>
@@ -195,11 +230,13 @@
     
         <div>
             <h1 class="text-center my-5">Desarrollo Full stack</h1>
+            <h4 class="text-center">Trabajos realizados en la carrera de desarrollo Fullstack de la academia “Desafío Latam”</h4>
         </div>
     <div class="row">
-        <div class="col-md-4 my-5">
+        <div class="col-12 col-xs-12 col-md-4 col-lg-4 col-xg-4 my-5">
             <div class="card card-full" >
-                <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet-coffe-imagen">
+                <a href="assets/Paginas/Meet_Coffe/index.html" target="_blank"><img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet-coffe-imagen"></a>
+                
                 <h5 class="card-title text-center my-1">Meet & Coffe</h5>
                 <div class="card-body ">
                   <p class="card-text">Tecnologia, café, charlas, tendencias, simposios, de eso trata Meet & coffe.</p>
@@ -207,9 +244,10 @@
             </div>
         </div>
        
-       <div class="col-md-4 my-5">
+       <div class="col-12 col-xs-12 col-md-4 col-lg-4 col-xg-4 my-5">
             <div class="card card-full" >
-                <img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon-imagen">
+                <a href="assets/Paginas/Cuppon/index.html" target="_blank"><img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon-imagen"></a>
+                
                 <h5 class="card-title text-center my-1">Cuppon</h5>
                 <div class="card-body">
                 <p class="card-text">Vacaciones, ofertas, exclusivas, viajes. </p>
@@ -217,9 +255,10 @@
             </div>
         </div>
 
-        <div class="col-md-4 my-5">
+        <div class="col-12 col-xs-12 col-md-4 col-lg-4 col-xg-4 my-5">
             <div class="card card-full" >
-                <img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana-imagen">
+                <a href="assets/Paginas/Iguana/index.html" target="_blank"><img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana-imagen"></a>
+                
                 <h5 class="card-title text-center my-1">Iguana</h5>
                 <div class="card-body">
                 <p class="card-text">Una breve introducción al fascinante mundo de las iguanas y reptiles.</p>
@@ -227,9 +266,10 @@
             </div>
         </div>
 
-        <div class="col-md-4 my-5">
+        <div class="col-12 col-xs-12 col-md-4 col-lg-4 col-xg-4 my-5">
             <div class="card card-full" >
-                <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida-imagen">
+                <a href="assets/Paginas/Ricomida/index.html" target="_blank" ><img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida-imagen"></a>
+                
                 <h5 class="card-title text-center my-1">Ricomida</h5>
                 <div class="card-body">
                 <p class="card-text">Delivery y platos gourmet, los sabores del mundo a tu paladar, no esperes más y visita Ricomida.</p>
@@ -237,9 +277,10 @@
             </div>
         </div>
 
-        <div class="col-md-4 my-5">
+        <div class="col-12 col-xs-12 col-md-4 col-lg-4 col-xg-4 my-5">
             <div class="card card-full" >
-                <img src="assets/img/suricata.png" class="card-img-top" alt="suricata-imagen">
+                <a href="assets/Paginas/Suricata/index.html" target="_blank"><img src="assets/img/suricata.png" class="card-img-top" alt="suricata-imagen"></a>
+                
                 <h5 class="card-title text-center my-1">Suricata</h5>
                 <div class="card-body">
                 <p class="card-text">Recetas y platos preparados, nuestra carta es dinamica y siempre te dejarán satisfechos nuestros sabores tradicionales. Te esperamos en Suricata.</p>
@@ -247,7 +288,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 my-5">
+        <div class="col-12 col-xs-12 col-md-4 col-lg-4 col-xg-4 my-5">
             <div class="card card-full" >
                 <img src="assets/img/dmark.png" class="card-img-top" alt="dmark.imagen">
                 <h5 class="card-title text-center my-1">D-Mark</h5>
@@ -263,43 +304,49 @@
 <!--Fin Trabajos Desafio-->
 
 <!--Experiencia adicional-->
-<section class="container-fluid experiencia my-5 py-5" id="experiencia_adicional">
-    <div class="container">
-    <div class="row">
-        <div class="container card mb-3">
-            <img src="assets/img/fuego.jpg" class="card-img-top" alt="bomberos">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        
-    </div>
-</div>
-</section>
+
 
 <!--Fin Experiencia adicional-->
 
 <!--TYPEFORM-->
     <section id="formulario">
-        <div class="typeform-widget" data-url="https://duranromerocris.typeform.com/to/pniee9" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=pniee9&utm_source=typeform.com-01E73GZ31BFGA6P87H60CRS5BP-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+        <div class="typeform-widget" data-url="https://duranromerocris.typeform.com/to/pniee9" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>  </div>
 
     </section>
 <!--FIN TYPEFORM-->
 
 <!--Footer-->
-<footer class="container-fluid bg-light" id="rrss">
-    <div class="container">
-        <h1 class="text-center">Encuentrame en redes sociales</h1>
+<footer class="container-fluid bg-light pt-5 " id="rrss">
+    <div class="container mb-5  ">
+        <h1 class="text-center ">Encuentrame en redes sociales</h1>
     </div>
-    <div class="container iconos text-center">
-        <a href=""><i class="fab fa-steam fa-2x mx-3"></i></a>
-    
-        <a href=""><i class="fab fa-steam fa-2x mx-3"></i></a>
+    <div class="container iconos text-center pb-5 ">
+        <div class="container">
+            <div class="row">
+            <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xg-2 my-3">
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube fa-2x "></i></a>
+            </div>
 
-        <a href=""><i class="fab fa-steam fa-2x mx-3"></i></a>
+            <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xg-2 my-3">
+            <a href="https://store.steampowered.com/"><i class="fab fa-steam fa-2x "></i></a>
+            </div>
 
+            <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xg-2 my-3">
+            <a href="https://twitter.com/"><i class="fab fa-twitter fa-2x "></i></a>
+            </div>
+            <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xg-2 my-3">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x "></i></a>
+            </div>
+
+            <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xg-2 my-3">
+            <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp fa-2x "></i></a>
+            </div>
+
+            <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xg-2 my-3">
+            <a href="https://vimeo.com/es/"><i class="fab fa-vimeo-v fa-2x "></i></a>
+            </div>
+            </div>
+        </div>
     </div>
     
 </footer>

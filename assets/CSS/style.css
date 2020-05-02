@@ -9,13 +9,16 @@
 
 body  {
     background-color: var(--color1);
-    font-family: 'Bungee', cursive;
     font-family: 'Staatliches', cursive;
+    font-family: 'Muli', sans-serif;
+        
     margin: 0;
     padding: 0;
     color: #717171;
-}
     
+}
+
+
 
 header {
     background-image: url('../img/hero.jpg');
@@ -24,8 +27,7 @@ header {
     background-position: center;
     padding-bottom: 30rem;
     color: #ffffff;
-    font-style: 'Staatliches', cursive;
-  
+    font-family: 'Staatliches', cursive;
 }
 
 .perfil-bio {
@@ -33,15 +35,15 @@ header {
     width: 100%;
 }
 
-footer {
-    background-color: var(--color4);
-}
-
 .barra-nav {
     background-color: var(--color4);
     color: #ffffff;
 }
 
+.navbar-brand {
+    font-family: 'Muli', sans-serif;
+    font-weight: 800;
+}
 
 
 .card-full {
@@ -58,5 +60,30 @@ footer {
 }
 
 .iconos a i{
-    display: inline-block;
+
+    color: var(--color4);
+}
+
+#fullstack h1 {
+    font-weight: 800;
+}
+
+#rrss h1 {
+    font-family: 'Staatliches', cursive;
+}
+
+.trabajos h1 {
+    font-weight: 800;
+}
+
+.carrusel h1 {
+    font-weight: 800;
+}
+
+#biografia h1 {
+    font-weight: 800;
+}
+
+.carrusel {
+    background-color: #000000;
 }

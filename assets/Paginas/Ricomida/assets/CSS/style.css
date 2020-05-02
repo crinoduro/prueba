@@ -1,0 +1,25 @@
+body {
+  font-family: 'Lobster', cursive;
+  font-family: 'Cabin', sans-serif;
+  color: #373A3C;
+}
+
+.marca {
+  font-family: Lobster;
+}
+
+
+
+.carousel-indicators {
+  top: 200px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.navbar {
+  height: 70px;
+}

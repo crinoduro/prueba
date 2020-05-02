@@ -1,0 +1,124 @@
+body * {
+  background-color: #000000;
+  text-align: left;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  background: #000000;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+/* header */
+.header {
+  text-align: center;
+  margin: 0;
+}
+.header h1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 3.125rem;
+}
+
+/* fin header */
+/* iguana section */
+.contenedor-iguana {
+  margin: auto;
+  padding: 2% 0;
+  text-align: center;
+}
+
+.parrafo, .iguana-1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.iguana-1 {
+  width: 30%;
+}
+.parrafo {
+  width:30%;
+  padding: 3% 0;
+  padding-right: 10%;
+  margin: 0;
+  font-size: 1rem ;
+  font-weight: 300;
+}
+
+
+/* fin iguana section */
+/* caracteristicas section */
+.centrado  {
+  background-color: #1E1A13;
+  margin: auto;
+  text-align: center;
+}
+.centrado h1 {
+  background-color: #1E1A13;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 5%;
+}
+
+.icono {
+  display: inline-block;
+  background-color: #1E1A13;
+  text-align: center;
+  padding: 5%;
+}
+.icono h3 {
+  background: #1E1A13;
+  margin: 1rem;
+  font-weight: 300;
+  font-size: 1.56rem;
+
+}
+/* fin caracteristicas section */
+
+/* enlaces section */
+.centrado-enlaces {
+  text-align: center;
+  margin: 0 5% ;
+}
+.imagenes-enlaces {
+  text-align: center;
+padding: 5% 0;
+}
+.imagenes-enlaces img  {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 1%;
+}
+
+.enlaces-img1 {
+  width: 30%;
+}
+.enlaces-img2 {
+  width: 26%;
+}
+.enlaces-img3 {
+  width: 25.5%;
+}
+
+/* fin enlaces section */
+
+/* footer section */
+.footer {
+  background-color: #1E1A13;
+  padding: 2% 0;
+}
+
+.footer p {
+  background: #1E1A13;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.footer p a {
+  background-color: #1E1A13;
+  text-decoration: none;
+}
+/* fin footer section */

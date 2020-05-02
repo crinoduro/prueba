@@ -1,0 +1,212 @@
+body {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 3.75rem;
+}
+
+h2{
+  font-weight: 700;
+}
+
+.subtitulo {
+  font-weight: 400;
+}
+/* fin body section */
+
+/* inicio nav section */
+.barra_nav a{
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+}
+
+.barra_nav ul li {
+  padding: 0 1em;
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
+}
+.barra_nav {
+    text-align: left;
+    background: #000000;
+    position: fixed;
+    padding: 1.25rem 4rem;
+    width: 100vw;
+    }
+
+  .icono {
+  width: 2rem;
+  }
+
+  .icono svg {
+    fill: #ffffff;
+  }
+/* fin nav section */
+
+/*header section*/
+.hero {
+  background-image: url(../img/bg-hero.png);
+  text-align: right;
+  color: #FFFFFF;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  padding: 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* fin header section */
+
+/* inicio we work section */
+#ubicacion {
+    border-style: dotted;
+    text-align: center;
+}
+
+.work-image{
+    width: 35%;
+    padding-top: 5%;
+}
+
+#ubicacion .work-texto h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+#ubicacion .work-texto {
+  padding-bottom: 5%;
+}
+
+/* fin we work section*/
+
+/* inicio charla section */
+.sweet_brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 3.125rem;
+  white-space: nowrap;
+}
+.centrado{
+  width: 75%;
+  margin: 0 auto;
+}
+.speaker, .charla-texto {
+  display: inline-block;
+}
+.speaker{
+  width: 25%;
+  vertical-align: middle;
+}
+.charla-texto {
+  text-align: left;
+  width: 75%;
+  margin-left: 2.5%;
+  vertical-align: middle;
+  white-space: normal;
+}
+#charla .centrado .charla-texto h5 {
+  font-size: 400;
+  font-weight: 1.25rem;
+  }
+#charla .charla-texto h4 {
+  font-size: 400;
+  font-weight: 2.6rem;
+}
+
+#charla .centrado .charla-texto h2 {
+  font-weight: 800;
+  font-size: 2.8rem;
+  text-align: left;
+}
+
+#charla .charla-texto h3 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+/* fin charla section */
+
+/* inicio eventos section */
+#eventos {
+  padding: 5rem;
+  }
+#eventos .eventos-title h1{
+  text-align: center;
+  padding: 1rem;
+}
+.eventos-cont {
+  display: inline-block;
+  width: 30%
+}
+.ev_img {
+  width: 75%;
+}
+
+/* fin eventos section */
+
+/* inicio footer section */
+#footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+#footer a i {
+    margin: 1rem 0.25rem;
+}
+/* fin footer section */
+
+/* inicio simposio vegan */
+
+.simposio *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.general {
+  padding: 5% 30%;
+  text-align: left;
+}
+
+h1{
+  padding: 0 0 0 20%;
+  text-align: left;
+  font-size: 2.5rem;
+}
+.post-1{
+  width: 100%;
+}
+.simposio-content {
+  padding: 8% 0 8% 0;
+
+}
+
+.parrafo1 {
+  margin: auto;
+  padding: 1rem 0;
+}
+.parrafo2 {
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.contenido p {
+  text-align: left;
+}
