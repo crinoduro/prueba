@@ -1,13 +1,51 @@
-body  {
+:root {
+
     
+    --color1: #204051;
+    --color2: #3b6978;
+    --color3: #84a9ac;
+    --color4: #cae8d5;
 }
 
+body  {
+    background-color: var(--color1);
+    font-family: 'Rubik', sans-serif;
+
+}
+    
+
 header {
-    background-image: url('../img/is-cowboy-bebop-anime-on-netflix.jpg');
+    background-image: url('../img/edu_astronauts.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 30rem;
+    color: #ffffff;
   
 }
 
+.footer {
+    background-color: var(--color4);
+    display: inline-block;
+}
+
+.barra-nav {
+    background-color: var(--color4);
+    color: #ffffff;
+}
+
+.bio{
+    background-color: var(--color2);
+}
+
+.trabajos {
+    background-color: var(--color2);
+}
+
+.experiencia {
+    background-color: var(--color2);
+}
+
+.card-full {
+    background-color: var(--color2);
+}
